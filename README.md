@@ -27,7 +27,7 @@ iex> bitmask = MyBitmask.atom_flags_to_bitmask([:flag_1, :flag_3])
 
 ### Check if we have a flag
 ```elixir
-iex> MyBitmask.has_flag(bitmask, :flag_1])
+iex> MyBitmask.has_flag(bitmask, :flag_1)
 true
 ```
 
